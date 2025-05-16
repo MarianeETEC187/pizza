@@ -1,0 +1,73 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding: 40px;
+  text-align: center;
+  }
+  
+  #cabecalho{
+    margin-bottom: 30px;
+    color: #2e0046;
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .retangulo h1{
+   font-family: "Prata", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #753396;
+  }
+
+  .retangulo dl{
+    font-family: "Prata", serif;
+   font-weight: 400;
+   font-style: normal;
+   color: #3d3c8b;
+  }
+  
+ .retangulo{
+  width: 300px;
+  height: 400px;
+  margin: 90px;
+  float: left;
+  border-radius: 20px;
+  border: 5px solid #E1B7F6;
+  transition: transform 0.5s ease, border-color 0.5s ease;
+  color: #3d3c8b;
+  background-color: #ffffff;
+ }
+ 
+ .retangulo:hover{
+  transform: scale(1.07);
+  border-color: #c85aff;
+ }
+
+.flower-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+  pointer-events: none; 
+  overflow: hidden;
+}
+
+.flower {
+  position: absolute;
+  width: 120px;
+  opacity: 0.50;
+  filter: blur(0.5px);
+}
+
+body{
+  background-image: url(../Img/Fundo.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
